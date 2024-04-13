@@ -1,0 +1,98 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 50px;
+    -webkit-text-stroke: 2px black;
+}
+
+label {
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+
+.calc-1 {
+    background-color: hotpink;
+    width: 100%;
+    max-width: 400px;
+    border: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 5px solid black;
+}
+
+.calc {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.ctext {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 2px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    width: 120px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container-input {
+    width: 50%;
+}
+
+.btnContainer {
+    width: 30%;
+}
+
+.result-container {
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.result {
+    width: 50%;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    border: 2px solid black;
+}

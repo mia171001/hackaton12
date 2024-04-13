@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="calc-1">
+        <h1>CALCULADORA</h1>
+        <div class="calc">
+          <div class="container-input">
+            <label for="input-number-1">Número 1: </label>
+            <input class="ctext" type="number" id="input-number-1" />
+            <label for="input-number-2">Número 2: </label>
+            <input class="ctext" type="number" id="input-number-2" />
+          </div>
+          <!-- BOTONES -->
+          <div class="btnContainer">
+            <button class="btn" id="button-add">SUMAR</button>
+            <button class="btn" id="button-minus">RESTAR</button>
+            <button class="btn" id="button-mult">MULTIPLICAR</button>
+            <button class="btn" id="button-split">DIVIDIR</button>
+            <button class="btn" id="button-rest">RESTO</button>
+            <button class="btn" id="button-power">POTENCIA</button>
+            <button class="btn" id="button-clean">LIMPIAR</button>
+          </div>
+        </div>
+        <div class="result-container">
+          <pre class="result" type="number" id="display"></pre>
+        </div>
+      </div>
+    </div>
+    <script src="calc.js"></script>
+  </body>
+</html>
